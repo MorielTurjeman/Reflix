@@ -1,0 +1,21 @@
+* {
+    background-color: black;
+
+}
+
+.whosWatching {
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 400%;
+    font-stretch: extra-expanded;
+
+}
+
+.users-list {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    align-items: center;
+    justify-content: center;
+}

@@ -3,15 +3,19 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 40vh;
   pointer-events: none;
+  background-image: url('./logo-reflix-quadrado.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
   background-color: #282c34;
@@ -32,7 +36,30 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.landing-page-buttons {
+  display: flex;
+  align-items: flex-start;
+  /* flex-wrap: wrap; */
+  flex-shrink: 1;
+}
+
+.home {
+
+  color: aliceblue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 190%;
+
+}
+
+.catalog {
+  color: aliceblue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 190%;
+
 }

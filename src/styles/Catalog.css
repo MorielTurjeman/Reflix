@@ -1,0 +1,8 @@
+.movies-catalog {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}

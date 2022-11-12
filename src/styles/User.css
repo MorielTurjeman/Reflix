@@ -1,0 +1,19 @@
+.userBox {
+
+    display: inline-block;
+    color: aliceblue;
+
+
+
+}
+
+.username {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 250%;
+    text-align: center;
+
+}
+
+.userImg {
+    height: 35vh;
+}
