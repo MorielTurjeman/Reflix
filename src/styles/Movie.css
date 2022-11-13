@@ -1,10 +1,28 @@
 .movie {
     color: white;
     display: flex;
+    position: relative;
 }
 
 .movieImg {
     max-width: 20vw;
     min-width: 20vw;
+    display: block;
+
+}
+
+.rent {
+    /* align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; */
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+
+    /* background-repeat: no-repeat; */
+    /* background-color: transparent;
+    border-color: transparent; */
+    /* box-shadow: none; */
+    background-repeat: no-repeat;
 
 }
