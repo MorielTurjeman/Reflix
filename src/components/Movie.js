@@ -17,7 +17,7 @@ class Movie extends Component {
             <div>
 
                 {this.props.name}
-                <button onClick={this.rentMovie}><i className={this.props.movieRented ? "fa-solid fa-minus fa-3x" : "fa fa-plus fa-3x"} aria-hidden="true" ></i></button>
+                <button onClick={this.ClickrentMovie}><i className={this.props.movieRented ? "fa-solid fa-minus fa-3x" : "fa fa-plus fa-3x"} aria-hidden="true" ></i></button>
                 <Link to={`/catalog/${this.props.id}`} ><img src={this.props.img} className="movieImg"></img></Link>
 
 
