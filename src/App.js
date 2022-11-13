@@ -51,8 +51,8 @@ class App extends Component {
         </div>
         <div className='App-logo'></div>
         <Route path="/catalog" exact render={() => <Catalog movies={this.state.movies} state={this.state} />} />
-        <Route path="/" exact render={() => <WhosWatching users={this.state.users} img={this.state.imgUrl} setConnectedUser={this.setConnectedUser} setIsRented={this.setIsRented} />} />
-        <Route path="/catalog/:movie" exact render={({ match }) => <MovieDetails movie={this.state.movies.find(movie => movie.id === match.params.movie)} />} />
+        <Route path="/" exact render={() => <WhosWatching users={this.state.users} img={this.state.imgUrl} setConnectedUser={this.setConnectedUser} />} />
+        <Route path="/catalog/:movie" exact render={({ match }) => <MovieDetails movie={this.state.movies.find(movie => movie.id === match.params.movie)} setIsRented={this.setIsRented} />} />
 
 
       </div>
