@@ -1,14 +1,19 @@
+* {
+  color: white;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vh;
+  height: 20vh;
   pointer-events: none;
   background-image: url('./logo-reflix-quadrado.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom: 30px;
 }
 
 /* @media (prefers-reduced-motion: no-preference) {
@@ -61,5 +66,14 @@
   color: aliceblue;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 190%;
+
+}
+
+.budget {
+  color: aliceblue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 180%;
+  margin-left: auto;
+
 
 }

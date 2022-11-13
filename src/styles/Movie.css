@@ -5,36 +5,37 @@
 }
 
 .movieImg {
-    max-width: 20vw;
-    min-width: 20vw;
+    max-width: 15vw;
+    min-width: 15vw;
     display: inline-block;
+    border-radius: 2%;
 
 }
 
-.rent2 {
-    /* align-items: center;
-    justify-content: center; */
-    /* flex-wrap: wrap; */
-    /* position: absolute;
+/* .rent2 {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
     bottom: 15px;
     left: 20px;
     color: white;
     background-color: transparent;
-    border-color: transparent;
+
     box-shadow: none;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
 
-}
+} */
 
-i::before {
+.top-right::before {
     background: transparent;
-    /* position: absolute; */
+    position: absolute;
     color: white;
-
-    bottom: 15px;
-    left: 20px;
+    top: 5px;
+    right: 5px;
     align-items: left;
     justify-content: left;
+
 }
 
 /* .rent {

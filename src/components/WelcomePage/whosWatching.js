@@ -14,7 +14,7 @@ class WhosWatching extends Component {
 
             <div>
                 <div className='whosWatching'>Who's Watching?</div>
-                <div className='users-list'>{this.props.users.map(user => <Link to="/catalog"><User key={user.name} name={user.name} imgUrl={user.imgUrl} setConnectedUser={this.props.setConnectedUser} setIsRented={this.props.setIsRented} /></Link>)}</div>
+                <div className='users-list'>{this.props.users.map(user => <Link to="/catalog"><User on key={user.name} name={user.name} imgUrl={user.imgUrl} setConnectedUser={this.props.setConnectedUser} setIsRented={this.props.setIsRented} /></Link>)}</div>
             </div>
 
         )

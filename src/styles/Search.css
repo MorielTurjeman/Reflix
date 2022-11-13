@@ -1,0 +1,25 @@
+.search-bar {
+    /* display: flex; */
+    color: red;
+
+}
+
+#search-input {
+    color: red;
+    background-color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 160%;
+
+
+}
+
+.btn-search {
+    /* color: white; */
+    background-color: red;
+    color: white;
+    /* color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80%; */
+
+
+}

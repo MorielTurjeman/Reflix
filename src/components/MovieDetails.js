@@ -14,7 +14,7 @@ class MovieDetails extends Component {
                 <Card style={{ width: '30rem', color: 'white' }}>
                     <Card.Img variant="top" src={this.props.movie.img} />
                     <Card.Body>
-                        <Card.Title>{this.props.movie.title} - {this.props.movie.year}</Card.Title>
+                        <Card.Title><b>{this.props.movie.title} - {this.props.movie.year}</b></Card.Title>
                         <Card.Text color='white'>
                             {this.props.movie.descrShort}
                         </Card.Text>

@@ -11,7 +11,7 @@ class User extends Component {
         // this.props.history.push("/catalog")
     }
     render() {
-        return (<div className='userBox'>
+        return (<div className='userBox' onClick={this.selcetUser}>
             <div>
                 <Link to={"/catalog"}><img src={this.props.imgUrl} className="userImg"></img></Link>
             </div>

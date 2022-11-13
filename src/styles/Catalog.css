@@ -5,4 +5,22 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+
+}
+
+.border-bottom {
+    border-bottom-color: white;
+    border-bottom-style: solid;
+
+
+}
+
+.rented {
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 200%;
+    font-stretch: extra-expanded;
+    margin-left: 10px;
+
 }
