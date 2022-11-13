@@ -10,7 +10,7 @@ class Catalog extends Component {
 
         return (<div>
             <div className='movies-catalog'>
-                {this.props.movies.map(movie => <Movie name={movie.name} img={movie.img} id={movie.id} isRented={movie.isRented} key={movie.name} />)}
+                {this.props.movies.map(movie => <Movie name={movie.name} img={movie.img} id={movie.id} isRented={movie.isRented} movieRented={this.props.rentedMovies.includes(movie.id)} key={movie.name} />)}
             </div>
         </div>
         );

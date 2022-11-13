@@ -50,9 +50,9 @@ class App extends Component {
           <Link to="/catalog" replace={true}><button className='catalog'>Catalog</button></Link>
         </div>
         <div className='App-logo'></div>
-        <Route path="/catalog" exact render={() => <Catalog movies={this.state.movies} state={this.state} />} />
+        <Route path="/catalog" exact render={() => <Catalog movies={this.state.movies} state={this.state} setIsRented={this.setIsRented} rentedMovies={this.state.rentedMoviesId} />} />
         <Route path="/" exact render={() => <WhosWatching users={this.state.users} img={this.state.imgUrl} setConnectedUser={this.setConnectedUser} />} />
-        <Route path="/catalog/:movie" exact render={({ match }) => <MovieDetails movie={this.state.movies.find(movie => movie.id === match.params.movie)} setIsRented={this.setIsRented} />} />
+        <Route path="/catalog/:movie" exact render={({ match }) => <MovieDetails movie={this.state.movies.find(movie => movie.id === match.params.movie)} />} />
 
 
       </div>
