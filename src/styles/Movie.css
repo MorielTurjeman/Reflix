@@ -7,22 +7,41 @@
 .movieImg {
     max-width: 20vw;
     min-width: 20vw;
-    display: block;
+    display: inline-block;
 
 }
 
-.rent {
+.rent2 {
     /* align-items: center;
-    justify-content: center;
-    flex-wrap: wrap; */
-    position: absolute;
+    justify-content: center; */
+    /* flex-wrap: wrap; */
+    /* position: absolute;
     bottom: 15px;
-    left: 10px;
-
-    /* background-repeat: no-repeat; */
-    /* background-color: transparent;
-    border-color: transparent; */
-    /* box-shadow: none; */
-    background-repeat: no-repeat;
+    left: 20px;
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    background-repeat: no-repeat; */
 
 }
+
+i::before {
+    background: transparent;
+    position: absolute;
+    color: white;
+
+    bottom: 15px;
+    left: 20px;
+    align-items: left;
+    justify-content: left;
+}
+
+/* .rent {
+    position: absolute;
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+
+
+} */

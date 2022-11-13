@@ -7,12 +7,16 @@ class Movie extends Component {
         super(props);
     }
     state = {}
+
+    ClickrentMovie = () => {
+
+    }
     render() {
         return (<div className='movie'>
             <div>
 
                 {this.props.name}
-                <div className='rent'><i className="bi bi-plus-circle"></i></div>
+                <button><i className="fa fa-plus fa-3x" aria-hidden="true" ></i></button>
                 <Link to={`/catalog/${this.props.id}`} ><img src={this.props.img} className="movieImg"></img></Link>
 
 
