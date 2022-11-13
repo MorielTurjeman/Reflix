@@ -8,6 +8,7 @@ import MovieDetails from './components/MovieDetails';
 
 
 
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -35,7 +36,7 @@ class App extends Component {
   }
 
   setIsRented = (MovieId) => {
-    rentedMovies = [...this.state.rentedMoviesId]
+    const rentedMovies = [...this.state.rentedMoviesId]
     rentedMovies.push(MovieId)
     this.setState({ rentedMoviesId: rentedMovies })
 
